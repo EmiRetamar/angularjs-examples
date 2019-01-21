@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="MyFirstApp">
+<head>
+	<meta charset="utf-8">
+	<title>Mi primera página con AngularJS</title>
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body ng-controller="FirstController">
+	{{ html | removeHtml }}
+	<br>
+	{{ mi_html | json}}
+	<p>
+		{{ costo | currency }}
+	</p>
+</body>
+</html>
